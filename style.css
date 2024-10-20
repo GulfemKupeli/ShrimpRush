@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f0f0; /* Arka plan rengi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  canvas {
+    background-color: #fff; 
+    border: 1px solid #000; 
+    z-index: 0; /* Canvas'ı üst katmana taşı */
+  }
+  #tekrarDeneButonu {
+    width: 10%; /* veya istediğiniz boyut */
+    height: 10%; /* veya istediğiniz boyut */
+  }
+  #kuponImg {
+    position: absolute; /* Konumlandırmayı etkinleştir */
+    z-index: 3; /* Canvas'tan daha yüksek bir z-index değeri */
+    width: 35%; /* veya istediğiniz boyut */
+    height: 13%; /* veya istediğiniz boyut */
+    top: 70%;
+  }
